@@ -1,5 +1,7 @@
 #include <stdio.h>
-/*
+/**
+ *main - Entry point
+ *Return:Always 0 (Succes)
  *This program is mainly to use the puts
  */
 
