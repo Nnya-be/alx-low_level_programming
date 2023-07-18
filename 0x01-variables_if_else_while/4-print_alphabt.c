@@ -5,7 +5,8 @@
  */
 int main(void)
 {
-for (char c = 'c'; c <= 'z'; c++)
+char c;
+for (c = 'c'; c <= 'z'; c++)
 {
 if (c != 'e' && c != 'q')
 putchar(c)
