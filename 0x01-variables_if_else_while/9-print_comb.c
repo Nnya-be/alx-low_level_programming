@@ -5,15 +5,17 @@
  */
 int main(void)
 {
-for (int i = 0; i <= 9; i++)
-{
-for (int j = 0; j <= 9; j++)
-{
-putchar(i);
-putchar(j);
-putchar(',');
-putchar(' ');
-}
-}
-return (0);
+int i;
+
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+		if (i < '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }

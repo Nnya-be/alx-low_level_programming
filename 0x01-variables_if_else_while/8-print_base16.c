@@ -5,13 +5,16 @@
  */
 int main(void)
 {
-for (int i = 0; i < 10; i++)
-{
-putchar(i);
-}
-for (char c = 'a'; c <= 'f'; c++)
-{
-putchar(c);
-}
-putchar('\n');
+char i;
+
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+	}
+	for (i = 'a'; i <= 'f'; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
