@@ -5,11 +5,13 @@
  */
 int main(void)
 {
-char c;
-for (c = 'c'; c <= 'z'; c++)
-{
-if (c != 'e' && c != 'q')
-putchar(c)
-}
-return (0);
+char string[] = "abcdfghijklmnoprstuvwxyz";
+	int i;
+
+	for (i = 0; i < 24; i++)
+	{
+		putchar(string[i]);
+	}
+	putchar('\n');
+	return (0);
 }
