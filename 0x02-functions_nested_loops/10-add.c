@@ -5,7 +5,7 @@
  *@b : second number
  *Return: the number computed
  */
-int add(int a ,int b)
+int add(int a , int b)
 {
 return (a + b);
 }
