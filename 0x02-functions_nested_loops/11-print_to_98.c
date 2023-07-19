@@ -5,9 +5,20 @@
  */
 void print_to_98(int n)
 {
-do {
+if (n < 99)
+{
+while (n < 99)
+{
 _putchar(n);
-_putchar(',');
-_putchar(' ');
-} while (n < 99);
+n++;
+}
+}
+else
+{
+while (n > 97)
+{
+_putchar(n);
+n--;
+}
+}
 }
