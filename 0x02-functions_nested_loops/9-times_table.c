@@ -12,7 +12,7 @@ for (j = 0; j < 10; j++)
 num = i * j;
 _putchar(num);
 _putchar(',');
-_putchar(' ');  
+_putchar(' ');
 }
 _putchar('\n');
 }
