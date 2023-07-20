@@ -26,7 +26,7 @@ sum = first + second;
 printf("%lu", sum);
 first = second;
 second = sum;
-if (count == 50)
+if (i == 50)
 printf("\n");
 else
 printf(", ");

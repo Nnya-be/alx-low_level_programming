@@ -12,13 +12,11 @@ return (0);
 }
 void print_multiple(void)
 {
-unsigned long number;
-unsigned long added;
+int number;
+int added;
 for (number = 1023; number > 0; number--)
 {
-if ((number % 3) == 0)
-added += number;
-else if ((number % 5) == 0)
+if ((number % 3) == 0) || ((number % 5) == 0))
 added += number;
 }
 printf("%lu\n", added);
