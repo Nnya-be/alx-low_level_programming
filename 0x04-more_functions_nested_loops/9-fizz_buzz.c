@@ -5,14 +5,17 @@
 void fizz_buzz(void)
 {
 int i;
+char fizz[] = "fizz";
+char buzz[] = "buzz";
+char fizz_b[] = "fizzbuzz";
 for (i = 1; i <= 100; i++)
 {
 if ((i % 3) == 0)
-printf("fizz");
+printf("%s", fizz);
 else if ((i % 5) == 0)
-printf("buzz");
+printf("%s", buzz);
 else if ((i % 3) == 0 && (i % 5) == 0)
-printf("fizzbuzz")
+printf("%s", fizz_b);
 else
 printf("%d", i);
 
