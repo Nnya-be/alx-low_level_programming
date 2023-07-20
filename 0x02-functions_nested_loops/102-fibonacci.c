@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ *main - Entry point of program;
+ *Return: 0 on sucess;
  *fibonacci - prints out the first 50 fibbos
  */
+int main(void)
+{
+fibonacci();
+return (0);
+}
 void fibonacci(void)
 {
 int i;
