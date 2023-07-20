@@ -23,9 +23,13 @@ printf("%lu, ", second);
 for (i = 3; i <= 50; i++)
 {
 sum = first + second;
-printf("%lu, ", sum);
+printf("%lu", sum);
 first = second;
 second = sum;
-}
+if (count == 50)
 printf("\n");
+else
+printf(", ");
+}
+return (0);
 }
