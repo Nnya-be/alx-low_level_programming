@@ -6,7 +6,8 @@
  */
 int  print_last_digit(int n)
 {
-int a = _abs(n);
+if(n < 0)
+a = n * -1;
 if (a != 0)
 {
 double x = a / 10;
