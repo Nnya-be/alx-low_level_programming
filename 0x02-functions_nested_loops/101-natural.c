@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  *print_multiple - takes numbers that are multiples of 3 and 5
  */
