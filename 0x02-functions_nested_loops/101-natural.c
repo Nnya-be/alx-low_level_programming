@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *print_multiple - takes numbers that are multiples of 3 and 5.
  *main - Entry point of the program.
+ *print_multiple - takes numbers that are multiples of 3 and 5.
  *Return: Always 0 on success.
  */
 void print_multiple(void);

@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  *main - Entry point of program;
- *Return: 0 on sucess;
  *fibonacci - prints out the first 50 fibbos
+ *Return: 0 on sucess;
  */
 int main(void)
 {
@@ -20,7 +20,7 @@ first = 1;
 second = 2;
 printf("%lu, ", first);
 printf("%lu, ", second);
-for (i = 1; i <= 50; i++)
+for (i = 3; i <= 50; i++)
 {
 sum = first + second;
 printf("%lu, ", sum);
