@@ -15,8 +15,10 @@ x = (int)x;
 y = a - (x * 10);
 if (y != 0)
 {
+_putchar(y);
 return (y);
 }
 }
+_putchar('0');
 return (0);
 }
