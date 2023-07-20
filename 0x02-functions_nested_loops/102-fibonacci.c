@@ -13,17 +13,17 @@ return (0);
 void fibonacci(void)
 {
 int i;
-int first;
-int second;
-int sum;
+unsigned long first;
+unsigned long second;
+unsigned long sum;
 first = 1;
 second = 2;
-printf("%d, ", first);
-printf("%d, ", second);
+printf("%lu, ", first);
+printf("%lu, ", second);
 for (i = 1; i <= 50; i++)
 {
 sum = first + second;
-printf("%d, ", sum);
+printf("%lu, ", sum);
 first = second;
 second = sum;
 }
