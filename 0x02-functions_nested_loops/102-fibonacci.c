@@ -27,5 +27,5 @@ printf("%d, ", sum);
 first = second;
 second = sum;
 }
-pritnf("\n");
+printf("\n");
 }
