@@ -18,7 +18,7 @@ for (number = 1023; number > 0; number--)
 {
 if ((number % 3) == 0)
 added += number;
-else if ((number % 5) == 0))
+else if ((number % 5) == 0)
 added += number;
 }
 printf("%lu\n", added);
