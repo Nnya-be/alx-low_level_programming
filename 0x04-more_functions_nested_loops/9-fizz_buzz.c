@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  *fizz_buzz - prints the fizz and buzz based on the number
  */
