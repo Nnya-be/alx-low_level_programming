@@ -5,28 +5,24 @@
 void fizz_buzz(void)
 {
 int i;
-char fizz[] = "Fizz";
-char buzz[] = "Buzz";
-char fizz_b[] = "FizzBuzz";
 for (i = 1; i <= 100; i++)
 {
-if ((i % 3) == 0)
+if (i % 3 == 0 && i % 5 == 0)
 {
-printf("%s", fizz);
+printf("FizzBuzz ");
 }
-if ((i % 5) == 0)
+else if (i % 3 == 0)
 {
-printf("%s", buzz);
+printf("Fizz ");
 }
-if (((i % 3) == 0) && ((i % 5) == 0))
+else if (i % 5 == 0)
 {
-printf("%s", fizz_b);
+printf("Buzz ");
 }
 else
 {
-printf("%d", i);
+printf("%d ", i);
 }
-printf(" ");
 }
 printf("\n");
 }
