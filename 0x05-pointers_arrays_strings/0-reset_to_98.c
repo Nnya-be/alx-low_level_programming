@@ -5,7 +5,5 @@
  */
 void reset_to_98(int *n)
 {
-int *n_pointer;
-*n_pointer = &n;
-*n_pointer = 98;
+*n = 98;
 }
