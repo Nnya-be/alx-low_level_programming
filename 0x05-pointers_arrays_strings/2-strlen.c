@@ -10,7 +10,7 @@ int i;
 int length;
 while (s[i] != '\0')
 {
-length++;
+length = length + 1;
 i++;
 }
 return (length);
