@@ -2,15 +2,18 @@
 /**
  *print_rev - used to print a string in reverse
  *@str : the string to be printed
- *return: no value
  */
 void print_rev(char *str)
 {
-if (*str == '\0')
+int length;
+while (*str != '\0')
 {
-return;
+length++;
+str++;
 }
-print_rev(str + 1);
+while (length >= 0)
+{
+_putchar(*str[length]);
+}
 _putchar('\n');
-_putchar(*str);
 }
