@@ -22,8 +22,5 @@ temp[i] = *s;
 s--;
 }
 }
- for (i = 0; i < length - 1; i++)
-{
-*s = temp[i];
-}
+s = temp;
 }
