@@ -24,9 +24,6 @@ s--;
 }
 for (i = 0; i < length - 1; i++)
 {
-if (temp[i] != '\0')
-{
-s[i] = temp[i];
-}
+_putchar(temp[i]);
 }
 }
