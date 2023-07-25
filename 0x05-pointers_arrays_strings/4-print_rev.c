@@ -13,7 +13,7 @@ str++;
 }
 while (length >= 0)
 {
-_putchar(*str[length]);
+_putchar(str[length]);
 }
 _putchar('\n');
 }
