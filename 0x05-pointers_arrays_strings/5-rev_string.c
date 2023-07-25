@@ -9,8 +9,8 @@ void rev_string(char *s)
 if (*s == '\0')
 {
 return;
-_putchar('\n');
 }
 rev_string(s + 1);
 _putchar(*s);
+_putchar('\n');
 }
