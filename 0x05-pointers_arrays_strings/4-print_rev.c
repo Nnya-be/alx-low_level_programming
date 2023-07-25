@@ -12,7 +12,7 @@ while (*str != '\0')
 length++;
 str++;
 }
-for (i = length; i > 0; i--)
+for (i = length; i >= 0; i--)
 {
 _putchar(*str);
 str--;
