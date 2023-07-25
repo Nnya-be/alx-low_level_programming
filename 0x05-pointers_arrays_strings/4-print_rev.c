@@ -14,8 +14,8 @@ str++;
 int i;
 for (i = length; i > 0; i--)
 {
-_putchar(*s);
-s--;
+_putchar(*str);
+str--;
 }
 _putchar('\n');
 }
