@@ -14,7 +14,7 @@ while (*s != '\0')
 {
 s++;
 }
-for (i = 0; i < length; i++)
+for (i = 0; i < length - 1; i++)
 {
 temp[i] = *s;
 s--;
