@@ -22,5 +22,5 @@ temp[i] = *s;
 s++;
 }
 }
-*s = temp;
+s = &temp;
 }
