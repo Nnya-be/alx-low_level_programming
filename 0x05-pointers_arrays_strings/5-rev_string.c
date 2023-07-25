@@ -16,8 +16,11 @@ s++;
 }
 for (i = 0; i < length - 1; i++)
 {
+if (*s != '\0')
+{
 temp[i] = *s;
 s--;
+}
 }
 s = temp;
 }
