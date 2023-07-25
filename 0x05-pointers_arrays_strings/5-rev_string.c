@@ -18,9 +18,9 @@ for (i = 0; i < length - 1; i++)
 {
 if (*s != '\0')
 {
-temp[i] = *s;
+*temp[i] = *s;
 s--;
 }
 }
-s = temp;
+s = *temp;
 }
