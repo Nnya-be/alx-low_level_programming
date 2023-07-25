@@ -13,7 +13,7 @@ int i;
 for (i = 0; i < length / 2; i++)
 {
 temp = s[i];
-s[i] = s[length - i - 1];
-s[length - i - 1] = temp;
+s[i] = s[length - i];
+s[length - i] = temp;
 }
 }
