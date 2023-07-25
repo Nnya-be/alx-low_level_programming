@@ -8,9 +8,9 @@ void print_rev(char *str)
 {
 if (*str == '\0')
 {
-_putchar('\n');
 return;
 }
 print_rev(str + 1);
+_putchar('\n');
 _putchar(*str);
 }
