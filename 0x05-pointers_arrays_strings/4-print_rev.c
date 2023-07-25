@@ -12,9 +12,10 @@ length++;
 str++;
 }
 int i;
-for (i = length - 1; i >= 0; i--)
+for (i = length; i > 0; i--)
 {
-_putchar(str[i]);
+_putchar(*s);
+s--;
 }
 _putchar('\n');
 }
