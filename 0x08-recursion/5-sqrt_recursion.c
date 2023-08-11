@@ -6,6 +6,7 @@
 *_sqrt_recursion_help - takes the number and manupulates it
 *@n : the number passed in
 *@g : the guessed number
+*Return : Always success
 */
 int _sqrt_recursion_help(int n, int g)
 {
