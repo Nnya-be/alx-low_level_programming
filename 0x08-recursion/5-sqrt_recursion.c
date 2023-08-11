@@ -18,7 +18,7 @@ if (g * g > n)
 return (-1);
 }
 return (_sqrt_recursion_help(n, g + 1));
-};
+}
 
 int _sqrt_recursion(int n)
 {
