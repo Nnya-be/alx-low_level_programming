@@ -16,7 +16,11 @@ if (*s != *(s + length - 1))
 {
 return (0);
 }
-if (*s == *(s + length -1))
+if (length % 2 != 0)
+{
+return (0);
+}
+if (*s == *(s + length - 1))
 {
 return (1);
 }
