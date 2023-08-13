@@ -24,11 +24,11 @@ return (is_prime_number_help(n, d - 1));
 /**
 *is_prime_number - checks for prime number
 *@n : the number to be taken
-*Return : 1 on finding a prime number
+*Return: 1 on finding a prime number
 */
-int is_prime_number(int n )
+int is_prime_number(int n)
 {
-if (n <= 1 )
+if (n <= 1)
 {
 return (0);
 }
