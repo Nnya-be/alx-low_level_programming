@@ -16,5 +16,5 @@ if (*s != *(s + length - 1))
 {
 return (0);
 }
-is_palindrome(s + 1);
+return (is_palindrome(s + 1));
 }
