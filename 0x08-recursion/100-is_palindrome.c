@@ -18,6 +18,6 @@ return (0);
 }
 if (*s == *(s + length - 1))
 {
-return (1 * is_palindrome(s + 1));
+return (1 * (is_palindrome(s + 1)));
 }
 }
