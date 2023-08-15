@@ -1,6 +1,6 @@
 #ifndef ABS
 #define ABS(x)   if (x > 0) \
-                 return (x);\
+                 x = x;\
 		 else       \
-		 return (x * -1);
+		 x = x * -1;
 #endif
