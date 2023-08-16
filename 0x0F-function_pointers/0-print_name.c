@@ -2,9 +2,12 @@
 /**
  *print_name - Function that prints a name
  *@name: name of to be printed
- *@fun : function pointer
+ *@f : function pointer
  */
-void print_name(char *name, f fun)
+void print_name(char *name, void (*f)(char *))
 {
-fun(name);
+if (f != NULL)
+{
+f(name);
+}
 }
