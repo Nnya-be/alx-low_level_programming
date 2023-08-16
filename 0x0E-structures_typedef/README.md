@@ -1,0 +1,1 @@
+#making a new readme for all is sometimes boring but I promise to update it sharp
