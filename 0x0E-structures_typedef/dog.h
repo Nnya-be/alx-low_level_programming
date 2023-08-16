@@ -13,5 +13,6 @@ float age;
 char *owner;
 };
 
-void init_dog(struct dog*, chat *, float, char *);
+void init_dog(struct dog*, char *, float, char *);
+void print_dog(struct dog *);
 #endif
