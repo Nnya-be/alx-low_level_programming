@@ -13,18 +13,13 @@ int a = atoi(argv[1]);
 int b = atoi(argv[3]);
 int result;
 int (*f)(int, int);
-f = get_op_func(argv[2]);
 if (argc != 4)
 {
 printf("Error\n");
 return (98);
 }
+f = get_op_func(argv[2]);
 if (!f)
-{
-printf("Error\n");
-return (99);
-}
-if (argv[2][1] != '\0')
 {
 printf("Error\n");
 return (99);
