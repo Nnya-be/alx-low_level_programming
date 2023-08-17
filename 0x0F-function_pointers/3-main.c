@@ -12,8 +12,8 @@ int main(int argc, char *argv[])
 int a = atoi(argv[1]);
 int b = atoi(argv[3]);
 int result;
-char *s = argv[2];
-int (*f)(int, int) = get_op_func(s);
+int (*f)(int, int);
+f = get_op_func(argv[2]);
 if (argc != 4)
 {
 printf("Error\n");
