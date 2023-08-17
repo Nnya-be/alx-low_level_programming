@@ -19,15 +19,10 @@ if (argc != 4)
 printf("Error\n");
 return (98);
 }
-if (!f)
-{
-printf("Error\n");
-return (99);
-}
 if (f == NULL)
 {
 printf("Error\n");
-return (98);
+return (99);
 }
 if ((*(argv[2]) == '/' || *(argv[2]) == '%') && b == 0)
 {
