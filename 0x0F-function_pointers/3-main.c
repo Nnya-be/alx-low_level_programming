@@ -19,7 +19,8 @@ if (argc != 4)
 printf("Error\n");
 return (98);
 }
-if (f == NULL || argv[2][1] != '\0')
+
+if (f == NULL || *(argv[2][1]) != '\0')
 {
 printf("Error\n");
 return (99);
