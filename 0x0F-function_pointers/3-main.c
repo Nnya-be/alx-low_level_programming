@@ -13,11 +13,17 @@ int a = atoi(argv[1]);
 int b = atoi(argv[3]);
 int result;
 char *s = argv[2];
-int (*f)(int, int) = get_op_func(s);
+int (*f)(int, int);
+f = get_op_func(s);
 if (argc != 4)
 {
 printf("Error\n");
 return (98);
+}
+if (!f)
+{
+printf("Error\n");
+exit(99);
 }
 if (f == NULL)
 {
