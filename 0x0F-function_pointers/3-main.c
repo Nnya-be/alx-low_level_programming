@@ -19,7 +19,7 @@ if (argc != 4)
 printf("Error\n");
 return (98);
 }
-if (f == NULL)
+if (!f)
 {
 printf("Error\n");
 return (99);
