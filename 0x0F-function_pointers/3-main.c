@@ -1,6 +1,6 @@
 #include "3-calc.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  *main - the start of program
  *@argc : the arg count
