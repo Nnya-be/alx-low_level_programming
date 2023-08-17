@@ -19,11 +19,6 @@ if (argc != 4)
 printf("Error\n");
 return (98);
 }
-if (get_op_func(argv[2]) == NULL || *(argv[2] + 1) != '\0')
-{
-printf("Error\n");
-return (99);
-}
 if (f == NULL)
 {
 printf("Error\n");
