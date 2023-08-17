@@ -22,7 +22,7 @@ return (98);
 if (!f)
 {
 printf("Error\n");
-exit(99);
+return (99);
 }
 if (f == NULL)
 {
