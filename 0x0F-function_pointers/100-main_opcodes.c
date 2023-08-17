@@ -24,7 +24,7 @@ exit(2);
 
 for (i = 0; i < b; i++)
 {
-printf("%02x",*(ptr + 1));
+printf("%02x ",*(ptr + 1));
 }
 printf("\n");
 return (0);
