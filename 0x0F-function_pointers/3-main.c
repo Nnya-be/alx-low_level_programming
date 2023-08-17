@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 int a = atoi(argv[1]);
 int b = atoi(argv[3]);
+char *s = argv[2];
 int result;
 int (*f)(int, int);
 f = get_op_func(argv[2]);
@@ -18,6 +19,11 @@ if (argc != 4)
 {
 printf("Error\n");
 return (98);
+}
+if (get_op_func(argv[2]) == NULL || s[1] != '\0')
+{
+printf("Error\n");
+return (99);
 }
 if (f == NULL)
 {
