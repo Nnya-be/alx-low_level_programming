@@ -16,15 +16,18 @@ if (argc != 2)
 printf("Error\n");
 exit(1);
 }
-if (b < 0)
+if (b <= 0)
 {
 printf("Error\n");
 exit(2);
 }
-
 for (i = 0; i < b; i++)
 {
-printf("%02x ", *(ptr + 1));
+if (i != b - 1)
+{
+printf(" ");
+}
+printf("%.2hhx", *(ptr + 1));
 }
 printf("\n");
 return (0);
