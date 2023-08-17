@@ -16,7 +16,7 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i = 0;
-if (s == NULL)
+if (*s == NULL)
 {
 return (NULL);
 }
