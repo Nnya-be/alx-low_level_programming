@@ -24,11 +24,6 @@ if (f == NULL)
 printf("Error\n");
 return (98);
 }
-if (!f)
-{
-printf("Error\n");
-return (99);
-}
 if ((*s == '/' || *s == '%') && b == 0)
 {
 printf("Error\n");
