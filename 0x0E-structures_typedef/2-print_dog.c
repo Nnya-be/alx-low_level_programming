@@ -10,28 +10,13 @@ if (d == NULL)
 {
 return;
 }
-if (d->name != NULL)
+if (d->name == NULL)
 {
-printf("Name: %s\n", d->name);
+d->name = "(nil)";
 }
-else
+if (d->owner == NULL)
 {
-printf("Name: (nil)\n");
+d->owner = "(nil)";
 }
-if (d->age != 0.0)
-{
-printf("Age: %f\n", d->age);
-}
-else
-{
-printf("Age: (nil)\n");
-}
-if (d->owner != NULL)
-{
-printf("Owner: %s\n", d->owner);
-}
-else
-{
-printf("Owner: (nil)\n");
-}
+printf("Name: %s\nAge: %f\nOwner: %s\n", d->name, d->age, d->owner);
 }
