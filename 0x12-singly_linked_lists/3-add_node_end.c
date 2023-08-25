@@ -3,6 +3,7 @@
  *add_node_end - Adds a node to the end of the lists
  *@head: The head of the lists
  *@str: The string to be stored
+ *Return: The list pointer
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
