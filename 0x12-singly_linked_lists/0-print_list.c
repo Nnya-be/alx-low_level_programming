@@ -6,7 +6,7 @@
  */
 size_t print_list(const list_t *h)
 {
-size_t i;
+unsigned short int i;
 while (h != NULL)
 {
 if (h->str == NULL)
