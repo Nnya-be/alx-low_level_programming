@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  *add_nodeint - adds a node to the start
  *@head: The head of the list
