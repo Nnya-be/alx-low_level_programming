@@ -1,5 +1,5 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
@@ -12,4 +12,8 @@ int set_bit(unsigned long int, unsigned int);
 int clear_bit(unsigned long int *, unsigned int);
 unsigned int flip_bits(unsigned long int, unsigned long int);
 int get_endianness(void);
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
 #endif
