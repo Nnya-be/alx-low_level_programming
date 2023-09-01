@@ -11,7 +11,7 @@ unsigned long int result = n ^ m;
 unsigned int count = 0;
 while (result > 0)
 {
-count += return & 1;
+count += result & 1;
 result >>= 1;
 }
 return (count);
