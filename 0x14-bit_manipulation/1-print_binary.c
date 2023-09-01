@@ -6,7 +6,7 @@
  */
 void print_binary(unsigned long int n)
 {
-int bitp = sizeof(unsigned long int) * 8 -1, flag;
+int bitp = sizeof(unsigned long int) * 8 - 1, flag;
 unsigned long int i;
 if (n == 0)
 {
