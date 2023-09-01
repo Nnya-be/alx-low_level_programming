@@ -2,7 +2,7 @@
 /**
  *binary_to_uint - Function to print the decimal representation of a binary
  *@b: The string of binary
- *@Return: The number
+ *Return: The number
  */
 unsigned int binary_to_uint(const char *b)
 {
