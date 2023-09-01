@@ -3,9 +3,9 @@
  *get_endianness - checks the endianness
  *Return: The endianness
  */
-int get_enianness(void)
+int get_endianness(void)
 {
-unsigned int num = 1;
+int num = 1;
 if (*(char *)&num == 1)
 {
 return (1);
