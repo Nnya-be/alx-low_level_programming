@@ -6,6 +6,12 @@
 int get_enianness(void)
 {
 unsigned int num = 1;
-unsigned char *bytePtr = (unsigned char *)&num;
-return (int)(*bytePtr);
+if (*(char *)&num == 1)
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
