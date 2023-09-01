@@ -6,17 +6,24 @@
  */
 void print_binary(unsigned long int n)
 {
-int i = 50, holder;
+int bitp = sizeof(unsigned long int) * 8 -1, flag;
+unsigned long int i;
 if (n == 0)
 {
 _putchar('0');
 }
-while (i >= 0)
+while (bitp >= 0)
 {
-holder = (n >> i) & 1;
-if (holder == 1)
+i = 1UL << bitp;
+if ((n & i) != 0)
 {
-_putchar(((n >> i) & 1) + '0');
+_putchar('1');
+flag = 1;
 }
+else if (flag == 1)
+{
+_putchar('0');
+}
+bitp--;
 }
 }
