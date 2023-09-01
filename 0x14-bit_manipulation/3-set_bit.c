@@ -13,12 +13,6 @@ if (index >= sizeof(unsigned long int) * 8)
 return (-1);
 }
 i = 1UL << index;
-if ((n & i) != 0)
-{
+*n |= i;
 return (1);
-}
-else
-{
-return (0);
-}
 }
