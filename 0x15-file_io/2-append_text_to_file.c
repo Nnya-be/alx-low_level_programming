@@ -19,13 +19,15 @@ if (fd == -1)
 close(fd);
 return (-1);
 }
+if (text_content != NULL)
+{
 b_written = write(fd, text_content, strlen(text_content));
 if (b_written == -1)
 {
 close(fd);
 return (-1);
 }
-
+}
 close(fd);
 return (1);
 }
