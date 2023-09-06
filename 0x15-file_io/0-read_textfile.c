@@ -18,7 +18,7 @@ if (buff == NULL)
 {
 return (0);
 }
-fd = open(filename, 0_RDONLY);
+fd = open(filename, O_RDONLY);
 bytesRead = read(fd, buff, letters);
 bytesWrite = write(STDOUT_FILENO, buff, bytesRead);
 free(buff);
