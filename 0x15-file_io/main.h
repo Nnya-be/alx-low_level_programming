@@ -5,6 +5,8 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <string.h>
+
 
 #define BUFFSIZE 1024
 ssize_t read_textfile(const char *, size_t);
