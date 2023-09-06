@@ -13,7 +13,7 @@ if (text_content == NULL || filename == NULL)
 {
 return (-1);
 }
-fd = open(filename, O_WRONLY);
+fd = open(filename, O_RDWR | O_APPEND);
 if (fd == -1)
 {
 close(fd);
