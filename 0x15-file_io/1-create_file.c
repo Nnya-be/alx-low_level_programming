@@ -29,17 +29,3 @@ return (-1);
 close(fd);
 return (1);
 }
-/**
-*_strlen - Claculate the string lengths
-*@str: String
-*Retrun :length of the string
-*/
-int _strlen(char *str)
-{
-int len;
-while (str[len] != '\0')
-{
-len++;
-}
-return (len);
-}
