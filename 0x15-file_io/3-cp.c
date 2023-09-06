@@ -11,14 +11,14 @@ int src, dst, bytes_rd, bytes_wr;
 char buffer[BUFFSIZE];
 if (ac != 3)
 {
-print_exit(97, "Usage: cp file_from file_to\n", av[0];
+print_exit(97, "Usage: cp file_from file_to\n", av[0]);
 }
 src = open(av[1], O_RDONLY);
 if (src == -1)
 {
 print_exit(98, "Error: Can't read from file %s\n", av[1]);
 }
-dst = open(av[2], OWRONLY | O_CREAT | O_TRUNC, 0664);
+dst = open(av[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 if (dst == -1)
 {
 print_exit(99, "Error: Can't wirte to %s\n", av[2]);
