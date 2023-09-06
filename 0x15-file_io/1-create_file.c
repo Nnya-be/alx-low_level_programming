@@ -12,7 +12,7 @@ if (filename == NULL)
 {
 return (-1);
 }
-fd = open(filename, O_CREATE | O_RDWR | O_TRUNC, 0600);
+fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 if (fd == -1)
 {
 return (-1);
@@ -37,7 +37,7 @@ return (1);
 int _strlen(char *str)
 {
 int len;
-while (str[len])
+while (str[len] != '\0')
 {
 len++;
 }
