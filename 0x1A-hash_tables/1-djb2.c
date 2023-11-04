@@ -1,4 +1,3 @@
-#inlcude "hash_tables.h"
 /**
  *hash_djb2- The hash algorithm fucntion.
  *@str: The string to be hashed.
