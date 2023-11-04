@@ -2,3 +2,7 @@
 ./*-main.c
 ./[a-z]-test
 ./*~
+[a-z]
+*.c~
+*-main.c
+*~
