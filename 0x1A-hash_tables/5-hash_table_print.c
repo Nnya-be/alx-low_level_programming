@@ -9,7 +9,7 @@ void hash_table_print(const hash_table_t *ht)
 	hash_node_t *array_node = malloc(sizeof(hash_node_t));
 	unsigned long int i = 0;
 	int first_node = 1;
-	
+
 	printf("{");
 	if (ht == NULL)
 	{
@@ -27,7 +27,6 @@ void hash_table_print(const hash_table_t *ht)
 			first_node = 0;
 			array_node = array_node->next;
 		}
-	
 		i++;
 	}
 	printf("}\n");
