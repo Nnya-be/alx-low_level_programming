@@ -1,0 +1,7 @@
+# Builds the executable from the all rule with CC and SRC varialbe.
+
+CC = gcc
+SRC = main.c school.c
+
+all: $(SRC)
+	$(CC) $(SRC) -o school
