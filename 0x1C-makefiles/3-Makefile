@@ -1,7 +1,7 @@
 # Clean,deletes and complie programs.
 
 CC = gcc
-SRC = school.c main.c
+SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
