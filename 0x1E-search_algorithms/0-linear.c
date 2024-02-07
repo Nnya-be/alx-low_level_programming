@@ -4,21 +4,22 @@
  *@array: The pointer to the array first element.
  *@size: The size of the array.
  *@value: The value to be found.
- *Return: The index where the value is located.
+ *Return: The index where the value is located, or -1 if not found.
  */
 
 int linear_search(int *array, size_t size, int value)
 {
-	int i = 0;
+	size_t i;
 
-	if (!array || !size)
+	if (!array || size == 0)
 		return (-1);
-	while ((size_t)i < size)
+
+    for (i = 0; i < size; i++)
 	{
-		printf("Value checked array [%d] = [%d]\n", i, array[i]);
+		printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 		if (array[i] == value)
 			return (i);
-		i++;
 	}
+
 	return (-1);
 }
